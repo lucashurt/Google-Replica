@@ -1,0 +1,30 @@
+@font-face{
+  font-family: 'Product Sans';
+  src: url('Product Sans Regular.ttf')
+}
+body{
+  background-color:rgb(66,66,66) ;
+}
+h1{
+  text-align: center;
+  text-align:end;
+  font-family: 'Product Sans';
+  color: white;
+  font-size: 100px;
+}
+
+div {
+  text-align: right;
+  a {
+    font-size: 15px;
+    text-align: end;
+    margin: 8px;
+    font-family: 'Arial';
+    background-color: rgb(66, 66, 66);
+    color: white;
+    }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
