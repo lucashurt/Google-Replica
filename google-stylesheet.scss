@@ -2,34 +2,26 @@
   font-family: 'Product Sans';
   src: url('Product Sans Regular.ttf')
 }
-div#content{
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  min-width: fit-content;
-}
 body{
   background-color:rgb(60,60,60) ;
   font-family: 'Arial';
 }
-
-  h1#Google-Logo {
-    margin-top: 40px;
-    margin-bottom: 2px;
-    text-align: center;
-    font-family: 'Product Sans';
-    color: white;
-    font-size: 80px;
-  }
-  p#images-logo {
-    color: #4487f6;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 0px;
-    margin-left: 200px;
-  }
-
-form {
+h1#Google-Logo {
+  margin-top: 40px;
+  margin-bottom: 2px;
+  text-align: center;
+  font-family: 'Product Sans';
+  color: white;
+  font-size: 80px;
+}
+p#images-logo {
+  color: #4487f6;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 200px;
+}
+form{
   text-align: center;
   input#search-text {
     font-size: 15px;
@@ -47,10 +39,14 @@ form {
     width: 20%;
   }
 }
-div {
+div#content {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-width: fit-content;
   text-align: right;
   .links {
-    font-size: 15px;
+    text-decoration: none;
     text-align: end;
     margin: 20px;
     font-family: 'Arial', serif;

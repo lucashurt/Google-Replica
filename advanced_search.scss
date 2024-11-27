@@ -1,0 +1,82 @@
+@font-face{
+  font-family: 'Product Sans';
+  src: url('Product Sans Regular.ttf')
+}
+body{
+  background-color:#202124;
+  font-family: 'Arial';
+}
+div#non-header-content{
+  display: flex;
+  flex-direction: row;
+}
+div#header{
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  h1#Google-Logo{
+    text-align: center;
+    font-family: 'Product Sans';
+    color: white;
+    font-size: 30px;
+  }
+  a{
+    text-decoration: none;
+    padding-top: 30px;
+    color: white;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+}
+
+div#content{
+  hr{
+    width: 100%;
+  }
+  div#descriptions{
+    display: flex;
+    flex-direction: column;
+  }
+  div#non-header-content{
+    color: #969ba1;
+    margin-left: 50px;
+    p{
+      margin-bottom: 30px;
+    }
+  }
+  hr{
+    border:1px solid black;
+  }
+  p#Advanced-Search-Logo{
+    margin-left: 50px;
+    color:#f28b82;
+    font-size: 20px;
+  }
+  p#Find-With{
+    margin-left: 50px;
+    color:white;
+    font-size: 15px;
+  }
+  div#search-boxes{
+    width: 50%;
+    margin-left: 50px;
+    input{
+      margin-bottom:30px;
+        background-color: #202124;
+        border: 1px solid #969ba1;
+        height: 30px;
+        color:#969ba1;
+        width: 100%;
+      }
+    }
+  }
+  div#button-space{
+    text-align: end;
+    button{
+      background-color: #8ab4f8;
+      height: 40px;
+    }
+  }
+
